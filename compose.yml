@@ -1,0 +1,52 @@
+services:
+  mosquitto:
+    build: ./mosquitto
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    networks:
+      - industry-net
+
+  control-center:
+    build: ./control-center
+    networks:
+      - industry-net
+    depends_on:
+      - mosquitto
+
+  production-line-1:
+    build: ./publisher
+    volumes:
+      - ./publisher/config/line1.json:/app/config/line1.json
+    environment:
+      - CONFIG_FILE=line1.json
+    networks:
+      - industry-net
+    depends_on:
+      - mosquitto
+
+  production-line-2:
+    build: ./publisher
+    volumes:
+      - ./publisher/config/line2.json:/app/config/line2.json
+    environment:
+      - CONFIG_FILE=line2.json
+    networks:
+      - industry-net
+    depends_on:
+      - mosquitto
+
+  production-line-3:
+    build: ./publisher
+    volumes:
+      - ./publisher/config/line3.json:/app/config/line3.json
+    environment:
+      - CONFIG_FILE=line3.json
+    networks:
+      - industry-net
+    depends_on:
+      - mosquitto
+
+networks:
+  industry-net:
+    driver: bridge
